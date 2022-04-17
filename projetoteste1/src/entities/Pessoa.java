@@ -5,6 +5,7 @@ public class Pessoa {
 	/*Atributos*/
 	private String nome;
 	private String sobrenome;
+	private int idade;
 	
 	/*gets e sets*/
 	public String getNome() {
