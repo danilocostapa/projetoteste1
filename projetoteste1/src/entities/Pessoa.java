@@ -9,6 +9,8 @@ public class Pessoa {
 	private String sobrenome;
 	private int idade;
 	private Date dataNascimento;
+	private Date dataCadastro;
+	private String cpf;
 	
 	/*gets e sets*/
 	public String getNome() {
@@ -42,4 +44,6 @@ public class Pessoa {
 	public void setDataNascimento(Date dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
+	
+	get
 }
