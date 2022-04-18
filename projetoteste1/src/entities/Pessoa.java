@@ -1,11 +1,14 @@
 package entities;
 
+import java.util.Date;
+
 public class Pessoa {
 	
 	/*Atributos*/
 	private String nome;
 	private String sobrenome;
 	private int idade;
+	private Date dataNascimento;
 	
 	/*gets e sets*/
 	public String getNome() {
@@ -30,5 +33,13 @@ public class Pessoa {
 	
 	public void setIdade(int idade) {
 		this.idade = idade;
+	}
+	
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+	
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
 	}
 }
