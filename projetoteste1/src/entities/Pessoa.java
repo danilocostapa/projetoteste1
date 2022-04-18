@@ -9,6 +9,7 @@ public class Pessoa {
 	private String sobrenome;
 	private int idade;
 	private Date dataNascimento;
+	private String cpf;
 	
 	/*gets e sets*/
 	public String getNome() {
